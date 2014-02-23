@@ -1,4 +1,9 @@
 CCArchive
 =========
 
-Computercraft Archive for my smaller programs
+Computercraft programs archive for my smaller programs and utilities.
+
+=========
+Window
+Abandoned resizing box GUI
+=========
