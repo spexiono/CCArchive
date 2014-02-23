@@ -1,0 +1,26 @@
+--Resizable window program test
+--by Spexiono GNU GENERAL PUBLIC LICENSE
+term.clear()
+term.setCursorPos(1, 1)
+local vbord = "|"
+local hbord = "-"
+local corner = "+"
+local w, h = term.getSize()
+local width = w - 1
+local height = h
+local i = 1
+
+
+function  border(type)
+	write(corner)
+	repeat
+		write(type)
+		i = i + 1	
+		until i == width
+	print(corner)
+end
+
+border(hbord)
+
+term.setCursorPos(2, 2)
+write(w.." "..h)
